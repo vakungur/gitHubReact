@@ -9,15 +9,13 @@ import PageNotFoundComponent from './pages/PageNotFound.component';
 
 function App() {
   return (
-    <>
-      <Switch>
-        <Route exact path="/" component={AuthPageComponent} />
-        <Route exact path="/terminals" component={TerminalsPageComponent} />
-        <Route exact path="/buyers" component={BuyersPageComponent} />
-        <Route exact path="/buyers/:id" component={BuyersPageIdComponent} />
-        <Route component={PageNotFoundComponent} />
-      </Switch>
-    </>
+        <Switch>
+          <Route exact path="/" component={AuthPageComponent} />
+          <Route exact path="/terminals" component={TerminalsPageComponent} />
+          <Route exact path="/buyers" component={BuyersPageComponent} />
+          <Route exact path="/buyers/:id" component={BuyersPageIdComponent} />
+          <Route component={PageNotFoundComponent} />
+        </Switch>
   );
 }
 

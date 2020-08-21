@@ -16,7 +16,7 @@ function LoginFormComponent() {
         </div>
       </div>
       <div className="uk-margin">
-        <button className="uk-button uk-button-default" type="submit">Войти</button>
+        <button className="uk-button uk-button-default uk-margin-left" type="submit">Войти в систему</button>
       </div>
     </form>
   );
